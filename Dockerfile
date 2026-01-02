@@ -17,4 +17,4 @@ ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 
 # Quan trọng: Thay 'Shop-Demo-BE-TBP.dll' bằng tên project của bạn
-ENTRYPOINT ["dotnet", "DEMO_Shop"]
+ENTRYPOINT ["dotnet", "DEMO_Shop.dll"]
