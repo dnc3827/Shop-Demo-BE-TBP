@@ -1,0 +1,514 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\controllers\\userpreferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\userpreferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop_hung\\demo_shop_hung\\demo_shop\\demo_shop\\demo_shop\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GoogleSheetService.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\GoogleSheetService.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Services\\GoogleSheetService.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\GoogleSheetService.cs",
+              "RelativeToolTip": "DEMO_Shop\\Services\\GoogleSheetService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwEkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T15:54:05.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T13:36:22.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\appsettings.json",
+              "RelativeDocumentMoniker": "DEMO_Shop\\appsettings.json",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\appsettings.json",
+              "RelativeToolTip": "DEMO_Shop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-01T07:21:48.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:12:43.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Program.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Program.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Program.cs",
+              "RelativeToolTip": "DEMO_Shop\\Program.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAAHAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T07:37:54.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T10:17:36.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T06:37:01.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Models\\Order.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\Order.cs",
+              "RelativeToolTip": "DEMO_Shop\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T09:43:22.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Models\\Category.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\Category.cs",
+              "RelativeToolTip": "DEMO_Shop\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T06:07:33.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Models\\Product.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\Product.cs",
+              "RelativeToolTip": "DEMO_Shop\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T06:15:46.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DEMO_Shop\\DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T07:53:28.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T14:40:20.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T13:36:20.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserPreferenceController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\UserPreferenceController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\UserPreferenceController.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Controllers\\UserPreferenceController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\UserPreferenceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T13:36:23.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Services\\OrderService.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\OrderService.cs",
+              "RelativeToolTip": "DEMO_Shop\\Services\\OrderService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T13:42:23.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Services\\DashboardService.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\DashboardService.cs",
+              "RelativeToolTip": "DEMO_Shop\\Services\\DashboardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T14:39:55.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Services\\CartService.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\CartService.cs",
+              "RelativeToolTip": "DEMO_Shop\\Services\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T10:20:36.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\CategoryService.cs",
+              "RelativeToolTip": "DEMO_Shop\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T10:19:57.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Helpers\\JwtHelper.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "DEMO_Shop\\Helpers\\JwtHelper.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T07:26:03.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\UpdateProductDto.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\UpdateProductDto.cs",
+              "RelativeToolTip": "DEMO_Shop\\DTOs\\UpdateProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T07:14:30.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Services\\ProductService.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Services\\ProductService.cs",
+              "RelativeToolTip": "DEMO_Shop\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T06:27:03.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\OrderItem.cs",
+              "RelativeToolTip": "DEMO_Shop\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T14:09:30.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Models\\User.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\User.cs",
+              "RelativeToolTip": "DEMO_Shop\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T13:52:43.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "DEMO_Shop\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T07:26:02.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Data\\DbSeeder.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "DEMO_Shop\\Data\\DbSeeder.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T07:26:11.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Models\\CartItem.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Models\\CartItem.cs",
+              "RelativeToolTip": "DEMO_Shop\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T10:17:40.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\CategoryDto.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "DEMO_Shop\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T06:29:38.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\CreateProductDto.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\CreateProductDto.cs",
+              "RelativeToolTip": "DEMO_Shop\\DTOs\\CreateProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T07:09:24.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DEMO_Shop\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA5wBgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T06:03:57.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductDetailDto.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\ProductDetailDto.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\ProductDetailDto.cs",
+              "ToolTip": "D:\\DEMO_Shop_Hung\\DEMO_Shop_Hung\\DEMO_Shop\\DEMO_Shop\\DEMO_Shop\\DTOs\\ProductDetailDto.cs",
+              "RelativeToolTip": "DEMO_Shop\\DTOs\\ProductDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T06:29:01.801Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

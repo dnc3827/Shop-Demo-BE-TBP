@@ -1,0 +1,10 @@
+﻿
+# Không đẩy file nhạy cảm
+appsettings.json
+appsettings.Development.json
+credentials.json
+
+bin/
+obj/
+.vs/
+
