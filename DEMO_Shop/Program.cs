@@ -99,13 +99,17 @@ app.UseExceptionHandler(app =>
     });
 });
 
-/*
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    var services = scope.ServiceProvider;
+    var db = services.GetRequiredService<AppDbContext>();
+
+    // Tự động tạo bảng nếu chưa có (Rất quan trọng cho MonsterASP)
+    db.Database.Migrate();
+
+    // Sau đó mới nạp dữ liệu mẫu
     DbSeeder.SeedAdmin(db);
 }
-*/
 
 app.UseSwagger();
 app.UseSwaggerUI();
@@ -120,7 +124,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseCors("AllowVue");
-
 app.UseAuthentication();
 app.UseAuthorization();
 
