@@ -13,9 +13,23 @@ namespace DEMO_Shop.Services
 
         public GoogleSheetService()
         {
-            var credential = GoogleCredential
-                .FromFile("credentials.json")
-                .CreateScoped(SheetsService.Scope.Spreadsheets);
+            // 1. Lấy chuỗi JSON từ biến môi trường của Railway
+            string jsonCredentials = Environment.GetEnvironmentVariable("GOOGLE_CREDENTIALS_JSON");
+
+            GoogleCredential credential;
+
+            if (string.IsNullOrEmpty(jsonCredentials))
+            {
+                // 2. Dự phòng: Nếu không thấy biến môi trường (khi chạy ở Local), thì mới tìm file
+                credential = GoogleCredential.FromFile("credentials.json")
+                                             .CreateScoped(SheetsService.Scope.Spreadsheets);
+            }
+            else
+            {
+                // 3. Nếu chạy trên Railway, sử dụng chuỗi JSON trực tiếp
+                credential = GoogleCredential.FromJson(jsonCredentials)
+                                             .CreateScoped(SheetsService.Scope.Spreadsheets);
+            }
 
             _service = new SheetsService(new BaseClientService.Initializer
             {
