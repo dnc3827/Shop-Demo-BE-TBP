@@ -99,11 +99,13 @@ app.UseExceptionHandler(app =>
     });
 });
 
+/*
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     DbSeeder.SeedAdmin(db);
 }
+*/
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
