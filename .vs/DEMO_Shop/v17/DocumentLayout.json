@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|c:\\users\\pc\\onedrive\\\u6587\u4EF6\\cty tbp\\demo_shop\\demo_shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|c:\\users\\pc\\onedrive\\\u6587\u4EF6\\cty tbp\\demo_shop\\demo_shop\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,6 +87,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\appsettings.json",
+              "RelativeDocumentMoniker": "DEMO_Shop\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\appsettings.json",
+              "RelativeToolTip": "DEMO_Shop\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-03T02:09:22.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\.gitignore",
               "RelativeDocumentMoniker": "DEMO_Shop\\.gitignore",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BlogResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\DTOs\\BlogResponseDto.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\BlogResponseDto.cs",
@@ -112,14 +129,14 @@
               "RelativeDocumentMoniker": "DEMO_Shop\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Program.cs",
               "RelativeToolTip": "DEMO_Shop\\Program.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGcAAAABAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T04:16:46.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BlogCreateUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\DTOs\\BlogCreateUpdateDto.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\BlogCreateUpdateDto.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\CartController.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\BlogController.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BlogDetailResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\DTOs\\BlogDetailResponseDto.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\BlogDetailResponseDto.cs",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Services\\BlogService.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Services\\BlogService.cs",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Data\\AppDbContext.cs",
@@ -191,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BlogDetail.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Models\\BlogDetail.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Models\\BlogDetail.cs",
@@ -203,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Models\\Product.cs",
@@ -215,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\DEMO_Shop\\DEMO_Shop\\Models\\Blog.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Models\\Blog.cs",
