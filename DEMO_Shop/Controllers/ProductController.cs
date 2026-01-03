@@ -49,18 +49,21 @@ namespace DEMO_Shop.Controllers
         // ================= CREATE (ADMIN) =================
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public IActionResult Create(DTOs.CreateProductDto dto)
+        // 1. Thêm async Task và [FromForm] để nhận file từ giao diện
+        public async Task<IActionResult> Create([FromForm] DTOs.CreateProductDto dto, IFormFile? imageFile)
         {
-            _service.Create(dto);
+            // 2. Truyền thêm imageFile vào Service
+            await _service.Create(dto, imageFile);
             return Ok(new { message = "Tạo sản phẩm thành công" });
         }
 
         // ================= UPDATE (ADMIN) =================
         [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public IActionResult Update(int id, DTOs.UpdateProductDto dto)
+        // 3. Tương tự cho Update
+        public async Task<IActionResult> Update(int id, [FromForm] DTOs.UpdateProductDto dto, IFormFile? imageFile)
         {
-            _service.Update(id, dto);
+            await _service.Update(id, dto, imageFile);
             return Ok(new { message = "Cập nhật thành công" });
         }
 

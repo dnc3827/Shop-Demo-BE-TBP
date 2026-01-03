@@ -9,10 +9,12 @@ namespace DEMO_Shop.Services
     public class ProductService
     {
         private readonly AppDbContext _db;
+        private readonly CloudinaryService _cloudinaryService; // Thêm dòng này
 
-        public ProductService(AppDbContext db)
+        public ProductService(AppDbContext db, CloudinaryService cloudinaryService) // Inject vào đây
         {
-            _db = db;
+            _db = db;   
+            _cloudinaryService = cloudinaryService;
         }
 
         public List<Product> GetPaged(int page, int size)
@@ -54,41 +56,53 @@ namespace DEMO_Shop.Services
                 .Where(x => x.Name.Contains(keyword))
                 .ToList();
 
-        public void Create(DTOs.CreateProductDto dto)
+        // Đổi void thành async Task
+        public async Task Create(DTOs.CreateProductDto dto, IFormFile imageFile)
         {
             var categoryExists = _db.Categories.Any(c => c.Id == dto.CategoryId);
             if (!categoryExists)
                 throw new Exception("Category không tồn tại");
 
+            // 1. Gọi service upload ảnh lên Cloudinary
+            string imageUrl = dto.ImageUrl; // Mặc định dùng link cũ nếu không có file
+            if (imageFile != null)
+            {
+                imageUrl = await _cloudinaryService.UploadImageAsync(imageFile);
+            }
+
+            // 2. Lưu vào DB với Link Cloudinary mới
             _db.Products.Add(new Product
             {
                 Name = dto.Name,
                 Price = dto.Price,
-                ImageUrl = dto.ImageUrl,
-                Description = dto.Description,   // ✅
+                ImageUrl = imageUrl, // Link https://res.cloudinary.com/...
+                Description = dto.Description,
                 CategoryId = dto.CategoryId
             });
 
-            _db.SaveChanges();
+            await _db.SaveChangesAsync();
         }
 
-        public void Update(int id, DTOs.UpdateProductDto dto)
+        public async Task Update(int id, DTOs.UpdateProductDto dto, IFormFile imageFile)
         {
             var product = _db.Products.Find(id);
-
-            if (product == null)
-                throw new Exception("Sản phẩm không tồn tại");
+            if (product == null) throw new Exception("Sản phẩm không tồn tại");
 
             if (!_db.Categories.Any(c => c.Id == dto.CategoryId))
                 throw new Exception("Danh mục không tồn tại");
 
+            // Nếu có file ảnh mới thì upload, không thì dùng lại product.ImageUrl cũ
+            if (imageFile != null)
+            {
+                product.ImageUrl = await _cloudinaryService.UploadImageAsync(imageFile);
+            }
+
             product.Name = dto.Name;
             product.Price = dto.Price;
-            product.ImageUrl = dto.ImageUrl;
             product.Description = dto.Description;
             product.CategoryId = dto.CategoryId;
 
-            _db.SaveChanges();
+            await _db.SaveChangesAsync();
         }
 
         public void Delete(int id)
