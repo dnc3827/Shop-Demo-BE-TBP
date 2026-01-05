@@ -52,12 +52,33 @@ namespace DEMO_Shop.Controllers
 
         // ================= ADMIN =================
 
-        // POST: api/blogs
         [Authorize(Roles = "Admin")]
+        [HttpGet("admin/{id}")]
+        public IActionResult GetDetailForAdmin(int id)
+        {
+            var blog = _blogService.GetById(id);
+
+            if (blog == null)
+                return NotFound();
+
+            return Ok(new BlogDetailResponseDto
+            {
+                BlogId = blog.BlogId,
+                Title = blog.Title,
+                ImageUrl = blog.ImageUrl,
+                IsActive = blog.IsActive,
+                Content = blog.Detail?.Content
+            });
+        }
+
+
+
+        // POST: api/blogs
         [HttpPost("create")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(
-        [FromForm] BlogCreateUpdateDto dto,
-        IFormFile imageFile)
+            [FromForm] BlogCreateUpdateDto dto,
+            [FromForm(Name = "imageFile")] IFormFile imageFile)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -71,13 +92,12 @@ namespace DEMO_Shop.Controllers
         }
 
 
-
         // PUT: api/blogs/{id}
-        [Authorize(Roles = "Admin")]
         [HttpPut("update")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(
-        [FromForm] BlogCreateUpdateDto dto,
-        IFormFile? imageFile)
+            [FromForm] BlogCreateUpdateDto dto,
+            [FromForm(Name = "imageFile")] IFormFile? imageFile)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

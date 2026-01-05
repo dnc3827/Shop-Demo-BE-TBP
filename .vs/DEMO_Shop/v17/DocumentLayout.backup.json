@@ -7,18 +7,6 @@
       "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\dtos\\blogcreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\dtos\\blogcreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\dtos\\blogdetailresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\dtos\\blogdetailresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlogCreateUpdateDto.cs",
-              "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\DTOs\\BlogCreateUpdateDto.cs",
-              "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\BlogCreateUpdateDto.cs",
-              "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\DTOs\\BlogCreateUpdateDto.cs",
-              "RelativeToolTip": "DEMO_Shop\\DTOs\\BlogCreateUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:24:48.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogDetailResponseDto.cs",
-              "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\DTOs\\BlogDetailResponseDto.cs",
-              "RelativeDocumentMoniker": "DEMO_Shop\\DTOs\\BlogDetailResponseDto.cs",
-              "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\DTOs\\BlogDetailResponseDto.cs",
-              "RelativeToolTip": "DEMO_Shop\\DTOs\\BlogDetailResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:24:48.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Services\\BlogService.cs",
-              "RelativeDocumentMoniker": "DEMO_Shop\\Services\\BlogService.cs",
-              "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Services\\BlogService.cs",
-              "RelativeToolTip": "DEMO_Shop\\Services\\BlogService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA/wFcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T13:27:44.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\ProductController.cs",
@@ -105,11 +54,12 @@
               "RelativeToolTip": "DEMO_Shop\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T06:41:03.336Z"
+              "WhenOpened": "2026-01-05T06:41:03.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\CartController.cs",
@@ -117,7 +67,8 @@
               "RelativeToolTip": "DEMO_Shop\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T06:40:48.974Z"
+              "WhenOpened": "2026-01-05T06:40:48.974Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -127,14 +78,14 @@
               "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\BlogController.cs",
               "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\BlogController.cs",
               "RelativeToolTip": "DEMO_Shop\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwCsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T06:40:30.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\DashboardController.cs",
@@ -142,7 +93,8 @@
               "RelativeToolTip": "DEMO_Shop\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T06:40:28.757Z"
+              "WhenOpened": "2026-01-05T06:40:28.757Z",
+              "EditorCaption": ""
             }
           ]
         },
