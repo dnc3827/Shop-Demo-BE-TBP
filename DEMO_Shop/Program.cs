@@ -75,8 +75,16 @@ builder.Services.AddScoped<UserPreferenceService>();
 builder.Services.AddSingleton<GoogleSheetService>();
 
 
-builder.Services.AddControllers();
-    
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        // Thêm dòng này để bỏ qua các vòng lặp khi Serialize JSON
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+
+        // (Tùy chọn) Giữ nguyên tên thuộc tính như trong C# thay vì biến thành chữ thường (camelCase)
+        options.JsonSerializerOptions.PropertyNamingPolicy = null;
+    });
+
 builder.Services.AddAuthorization();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -34,26 +34,26 @@ namespace DEMO_Shop.Services
         }
 
         // ================= CREATE =================
-        public async Task<Blog?> Create(BlogCreateUpdateDto dto, IFormFile imageFile)
+        public async Task<object?> Create(BlogCreateUpdateDto dto, IFormFile imageFile)
         {
-            if (imageFile == null)
-                return null;
+            if (imageFile == null) return null;
 
-            // 1. Upload image
+            // 1. Upload image lên Cloudinary
             var imageUrl = await _cloudinaryService.UploadImageAsync(imageFile);
 
-            // 2. Create Blog
+            // 2. Tạo thực thể Blog (Entity)
             var blog = new Blog
             {
                 Title = dto.Title,
                 ImageUrl = imageUrl,
                 IsActive = dto.IsActive
+                // Không gán các bảng liên quan ở đây để tránh vòng lặp
             };
 
             _context.Blogs.Add(blog);
             await _context.SaveChangesAsync();
 
-            // 3. Create BlogDetail
+            // 3. Tạo thực thể BlogDetail (Entity)
             var detail = new BlogDetail
             {
                 BlogId = blog.BlogId,
@@ -63,22 +63,29 @@ namespace DEMO_Shop.Services
             _context.BlogsDetail.Add(detail);
             await _context.SaveChangesAsync();
 
-            return blog;
+            // 4. TRẢ VỀ DỮ LIỆU SẠCH (Quan trọng nhất)
+            return new
+            {
+                BlogId = blog.BlogId,
+                Title = blog.Title,
+                ImageUrl = blog.ImageUrl,
+                Content = detail.Content,
+                IsActive = blog.IsActive
+            };
         }
 
         // ================= UPDATE =================
-        public async Task<Blog?> Update(BlogCreateUpdateDto dto, IFormFile? imageFile)
+        public async Task<object?> Update(BlogCreateUpdateDto dto, IFormFile? imageFile)
         {
-            if (!dto.BlogId.HasValue)
-                return null;
+            if (!dto.BlogId.HasValue) return null;
 
+            // Lấy Blog từ DB
             var blog = await _context.Blogs
                 .FirstOrDefaultAsync(x => x.BlogId == dto.BlogId.Value);
 
-            if (blog == null)
-                return null;
+            if (blog == null) return null;
 
-            // Upload new image if provided
+            // Cập nhật ảnh nếu có file mới
             if (imageFile != null)
             {
                 blog.ImageUrl = await _cloudinaryService.UploadImageAsync(imageFile);
@@ -87,17 +94,26 @@ namespace DEMO_Shop.Services
             blog.Title = dto.Title;
             blog.IsActive = dto.IsActive;
 
+            // Cập nhật nội dung trong BlogDetail
             var detail = await _context.BlogsDetail
                 .FirstOrDefaultAsync(x => x.BlogId == blog.BlogId);
 
-            if (detail == null)
-                return null;
-
-            detail.Content = dto.Content;
+            if (detail != null)
+            {
+                detail.Content = dto.Content;
+            }
 
             await _context.SaveChangesAsync();
 
-            return blog;
+            // TRẢ VỀ DỮ LIỆU SẠCH
+            return new
+            {
+                BlogId = blog.BlogId,
+                Title = blog.Title,
+                ImageUrl = blog.ImageUrl,
+                Content = detail?.Content,
+                IsActive = blog.IsActive
+            };
         }
 
         // ================= DELETE =================
