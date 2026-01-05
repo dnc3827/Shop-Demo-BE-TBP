@@ -19,7 +19,6 @@ namespace DEMO_Shop.Controllers
         // ================= PUBLIC =================
 
         // GET: api/blogs
-        // List blog (image + title)
         [HttpGet]
         public IActionResult GetActive()
         {
@@ -28,7 +27,6 @@ namespace DEMO_Shop.Controllers
         }
 
         // GET: api/blogs/{id}
-        // Blog detail
         [HttpGet("{id}")]
         public IActionResult GetDetail(int id)
         {
@@ -37,21 +35,19 @@ namespace DEMO_Shop.Controllers
             if (blog == null || !blog.IsActive)
                 return NotFound();
 
-
-            var response = new BlogDetailResponseDto
+            return Ok(new BlogDetailResponseDto
             {
                 BlogId = blog.BlogId,
                 Title = blog.Title,
                 ImageUrl = blog.ImageUrl,
                 IsActive = blog.IsActive,
                 Content = blog.Detail?.Content
-            };
-
-            return Ok(response);
+            });
         }
 
         // ================= ADMIN =================
 
+        // GET: api/blogs/admin/{id}
         [Authorize(Roles = "Admin")]
         [HttpGet("admin/{id}")]
         public IActionResult GetDetailForAdmin(int id)
@@ -71,11 +67,9 @@ namespace DEMO_Shop.Controllers
             });
         }
 
-
-
         // POST: api/blogs
-        [HttpPost("create")]
         [Authorize(Roles = "Admin")]
+        [HttpPost]
         public async Task<IActionResult> Create(
             [FromForm] BlogCreateUpdateDto dto,
             [FromForm(Name = "imageFile")] IFormFile imageFile)
@@ -91,10 +85,9 @@ namespace DEMO_Shop.Controllers
             return Ok(result);
         }
 
-
-        // PUT: api/blogs/{id}
-        [HttpPut("update")]
+        // PUT: api/blogs/update
         [Authorize(Roles = "Admin")]
+        [HttpPut("update")]
         public async Task<IActionResult> Update(
             [FromForm] BlogCreateUpdateDto dto,
             [FromForm(Name = "imageFile")] IFormFile? imageFile)
@@ -109,7 +102,6 @@ namespace DEMO_Shop.Controllers
 
             return Ok(result);
         }
-
 
         // DELETE: api/blogs/{id}
         [Authorize(Roles = "Admin")]
