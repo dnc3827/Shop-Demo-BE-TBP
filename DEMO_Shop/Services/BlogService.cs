@@ -8,7 +8,7 @@ namespace DEMO_Shop.Services
     public class BlogService
     {
         private readonly AppDbContext _context;
-        private readonly CloudinaryService _cloudinaryService; // Thêm dòng này
+        private readonly CloudinaryService _cloudinaryService;
 
         public BlogService(AppDbContext context, CloudinaryService cloudinaryService)
         {
@@ -16,15 +16,7 @@ namespace DEMO_Shop.Services
             _cloudinaryService = cloudinaryService;
         }
 
-        // Admin list
         // ================= READ =================
-
-        public List<Blog> GetAll()
-        {
-            return _context.Blogs
-                .OrderByDescending(b => b.BlogId)
-                .ToList();
-        }
 
         public List<Blog> GetActive()
         {
@@ -34,7 +26,7 @@ namespace DEMO_Shop.Services
                 .ToList();
         }
 
-        public Blog GetById(int id)
+        public Blog? GetById(int id)
         {
             return _context.Blogs
                 .Include(b => b.Detail)
@@ -42,15 +34,15 @@ namespace DEMO_Shop.Services
         }
 
         // ================= CREATE =================
-        public async Task<Blog> Create(BlogCreateUpdateDto dto, IFormFile imageFile)
+        public async Task<Blog?> Create(BlogCreateUpdateDto dto, IFormFile imageFile)
         {
             if (imageFile == null)
-                throw new Exception("Vui lòng upload hình ảnh");
+                return null;
 
-            // 1. Upload Cloudinary
+            // 1. Upload image
             var imageUrl = await _cloudinaryService.UploadImageAsync(imageFile);
 
-            // 2. Tạo Blog
+            // 2. Create Blog
             var blog = new Blog
             {
                 Title = dto.Title,
@@ -61,7 +53,7 @@ namespace DEMO_Shop.Services
             _context.Blogs.Add(blog);
             await _context.SaveChangesAsync();
 
-            // 3. Tạo BlogDetail
+            // 3. Create BlogDetail
             var detail = new BlogDetail
             {
                 BlogId = blog.BlogId,
@@ -74,32 +66,32 @@ namespace DEMO_Shop.Services
             return blog;
         }
 
-
         // ================= UPDATE =================
-        public async Task<Blog> Update(BlogCreateUpdateDto dto, IFormFile? imageFile)
+        public async Task<Blog?> Update(BlogCreateUpdateDto dto, IFormFile? imageFile)
         {
             if (!dto.BlogId.HasValue)
-                throw new Exception("BlogId không hợp lệ");
+                return null;
 
             var blog = await _context.Blogs
-                .FirstOrDefaultAsync(x => x.BlogId == dto.BlogId.Value)
-                ?? throw new Exception("Blog không tồn tại");
+                .FirstOrDefaultAsync(x => x.BlogId == dto.BlogId.Value);
 
-            // 1. Upload ảnh mới nếu có
+            if (blog == null)
+                return null;
+
+            // Upload new image if provided
             if (imageFile != null)
             {
                 blog.ImageUrl = await _cloudinaryService.UploadImageAsync(imageFile);
             }
-            // nếu không upload → giữ ảnh cũ
 
-            // 2. Update thông tin
             blog.Title = dto.Title;
             blog.IsActive = dto.IsActive;
 
-            // 3. Update BlogDetail
             var detail = await _context.BlogsDetail
-                .FirstOrDefaultAsync(x => x.BlogId == blog.BlogId)
-                ?? throw new Exception("BlogDetail không tồn tại");
+                .FirstOrDefaultAsync(x => x.BlogId == blog.BlogId);
+
+            if (detail == null)
+                return null;
 
             detail.Content = dto.Content;
 
@@ -107,7 +99,6 @@ namespace DEMO_Shop.Services
 
             return blog;
         }
-
 
         // ================= DELETE =================
         public bool Delete(int id)

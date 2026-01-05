@@ -56,12 +56,21 @@ namespace DEMO_Shop.Controllers
         [Authorize(Roles = "Admin")]
         [HttpPost("create")]
         public async Task<IActionResult> Create(
-            [FromForm] BlogCreateUpdateDto dto,
-            IFormFile imageFile)
+        [FromForm] BlogCreateUpdateDto dto,
+        IFormFile imageFile)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var result = await _blogService.Create(dto, imageFile);
+
+            if (result == null)
+                return BadRequest("Vui lòng upload hình ảnh");
+
             return Ok(result);
         }
+
+
 
         // PUT: api/blogs/{id}
         [Authorize(Roles = "Admin")]
@@ -70,9 +79,17 @@ namespace DEMO_Shop.Controllers
         [FromForm] BlogCreateUpdateDto dto,
         IFormFile? imageFile)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var result = await _blogService.Update(dto, imageFile);
+
+            if (result == null)
+                return NotFound("Blog không tồn tại");
+
             return Ok(result);
         }
+
 
         // DELETE: api/blogs/{id}
         [Authorize(Roles = "Admin")]
