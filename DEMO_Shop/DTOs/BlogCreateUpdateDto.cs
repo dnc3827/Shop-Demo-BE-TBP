@@ -12,7 +12,6 @@ namespace DEMO_Shop.DTOs
 
         public string? ImageUrl { get; set; }
 
-        [Required]
         public string Content { get; set; }
 
         public bool IsActive { get; set; }
