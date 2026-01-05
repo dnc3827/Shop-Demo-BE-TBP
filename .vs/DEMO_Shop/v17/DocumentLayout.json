@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|d:\\demo_shop\\shop-demo-be-tbp\\demo_shop\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0861719E-9E07-4823-9D83-81D04DA3A9DA}|DEMO_Shop\\DEMO_Shop.csproj|solutionrelative:demo_shop\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:611123559:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T06:41:03.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T06:40:48.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\BlogController.cs",
+              "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T06:40:30.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "DEMO_Shop\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\DEMO_Shop\\Shop-Demo-BE-TBP\\DEMO_Shop\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "DEMO_Shop\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T06:40:28.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
