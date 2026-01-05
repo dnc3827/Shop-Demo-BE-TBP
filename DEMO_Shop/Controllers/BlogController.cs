@@ -54,34 +54,24 @@ namespace DEMO_Shop.Controllers
 
         // POST: api/blogs
         [Authorize(Roles = "Admin")]
-        [HttpPost]
-        public IActionResult Create([FromBody] BlogCreateUpdateDto dto)
+        [HttpPost("create")]
+        public async Task<IActionResult> Create(
+            [FromForm] BlogCreateUpdateDto dto,
+            IFormFile imageFile)
         {
-            var blog = _blogService.Create(dto);
-            var response = new BlogResponseDto
-            {
-                BlogId = blog.BlogId,
-                Title = blog.Title,
-                ImageUrl = blog.ImageUrl,
-                IsActive = blog.IsActive,
-                Content = dto.Content
-            };
-
-            return CreatedAtAction(nameof(GetDetail), new { id = blog.BlogId }, response);
+            var result = await _blogService.Create(dto, imageFile);
+            return Ok(result);
         }
 
         // PUT: api/blogs/{id}
         [Authorize(Roles = "Admin")]
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] BlogCreateUpdateDto dto)
+        [HttpPut("update")]
+        public async Task<IActionResult> Update(
+        [FromForm] BlogCreateUpdateDto dto,
+        IFormFile? imageFile)
         {
-            dto.BlogId = id;
-
-            var success = _blogService.Update(dto);
-            if (!success)
-                return NotFound();
-
-            return NoContent();
+            var result = await _blogService.Update(dto, imageFile);
+            return Ok(result);
         }
 
         // DELETE: api/blogs/{id}

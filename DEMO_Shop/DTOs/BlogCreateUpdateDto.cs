@@ -10,7 +10,6 @@ namespace DEMO_Shop.DTOs
         [StringLength(200)]
         public string Title { get; set; }
 
-        [Required]
         public string ImageUrl { get; set; }
 
         [Required]

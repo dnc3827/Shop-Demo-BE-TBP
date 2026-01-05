@@ -1,4 +1,6 @@
-﻿namespace DEMO_Shop.Models
+﻿using DEMO_Shop.Services;
+
+namespace DEMO_Shop.Models
 {
     public class Order
     {
@@ -14,7 +16,7 @@
         public decimal Total { get; set; }
 
         public string Status { get; set; } = "Pending";
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTimeHelper.VietNameNow();
     }
 
 }
