@@ -82,8 +82,7 @@
               "RelativeToolTip": "DEMO_Shop\\appsettings.Example.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-05T23:29:45.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T23:29:45.052Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "DEMO_Shop\\.gitignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-05T23:29:24.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T23:29:24.407Z"
             },
             {
               "$type": "Document",
@@ -106,7 +104,7 @@
               "RelativeDocumentMoniker": "DEMO_Shop\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\\u6587\u4EF6\\CTY TBP\\Shop-Demo-BE-TBP\\DEMO_Shop\\Program.cs",
               "RelativeToolTip": "DEMO_Shop\\Program.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAawE0AAAAhAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAawEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T23:15:59.024Z",
               "EditorCaption": ""
@@ -121,8 +119,7 @@
               "RelativeToolTip": "DEMO_Shop\\DTOs\\BlogCreateUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:24:48.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:24:48.776Z"
             },
             {
               "$type": "Document",
@@ -134,8 +131,7 @@
               "RelativeToolTip": "DEMO_Shop\\DTOs\\BlogDetailResponseDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:24:48.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:24:48.013Z"
             },
             {
               "$type": "Document",
@@ -147,8 +143,7 @@
               "RelativeToolTip": "DEMO_Shop\\Services\\BlogService.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAkwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T13:27:44.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T13:27:44.832Z"
             },
             {
               "$type": "Document",
@@ -184,8 +179,7 @@
               "RelativeToolTip": "DEMO_Shop\\Controllers\\BlogController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T06:40:30.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T06:40:30.224Z"
             },
             {
               "$type": "Document",

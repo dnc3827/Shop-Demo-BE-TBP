@@ -78,11 +78,11 @@ builder.Services.AddSingleton<GoogleSheetService>();
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
-        // Thêm dòng này để bỏ qua các vòng lặp khi Serialize JSON
+        // GIỮ LẠI: Để hết lỗi vòng lặp vô hạn
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 
-        // (Tùy chọn) Giữ nguyên tên thuộc tính như trong C# thay vì biến thành chữ thường (camelCase)
-        options.JsonSerializerOptions.PropertyNamingPolicy = null;
+        // XOÁ HOẶC ĐỔI THÀNH DÒNG NÀY: Để Vue đọc được dữ liệu (price, name, imageUrl...)
+        options.JsonSerializerOptions.PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase;
     });
 
 builder.Services.AddAuthorization();
