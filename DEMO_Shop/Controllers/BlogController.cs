@@ -69,7 +69,7 @@ namespace DEMO_Shop.Controllers
 
         // POST: api/blogs
         [Authorize(Roles = "Admin")]
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<IActionResult> Create(
             [FromForm] BlogCreateUpdateDto dto,
             [FromForm(Name = "imageFile")] IFormFile imageFile)
